@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MageMobile_RegisterAdmin::registered_users" title="Registered Users" translate="title" module="MageMobile_RegisterAdmin" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="MageMobile_RegisterAdmin" resource="MageMobile_RegisterAdmin::registered_users"/>
+        <add id="MageMobile_RegisterAdmin::registered_users_list" title="List" translate="title" module="MageMobile_RegisterAdmin" parent="MageMobile_RegisterAdmin::registered_users" sortOrder="10" dependsOnModule="MageMobile_RegisterAdmin" action="registeradmin/list" resource="MageMobile_RegisterAdmin::registered_users"/>
+    </menu>
+</config>
