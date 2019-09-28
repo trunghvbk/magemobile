@@ -1,5 +1,5 @@
 <?php
-namespace MageMobile\RegisterAdmin\Controller\Adminhtml\RegisterUserList;
+namespace MageMobile\RegisterAdmin\Controller\Adminhtml\Lists;
 
 class Index extends \Magento\Backend\App\Action
 {
@@ -18,8 +18,6 @@ class Index extends \Magento\Backend\App\Action
         \Magento\Backend\App\Action\Context $context,
         \Magento\Framework\View\Result\PageFactory $resultPageFactory
     ) {
-        var_dump(111);
-        die("AAAAAA");
         parent::__construct($context);
         $this->resultPageFactory = $resultPageFactory;
     }
@@ -31,8 +29,6 @@ class Index extends \Magento\Backend\App\Action
      */
     public function execute()
     {
-        var_dump(111);
-        die("AAAAAA");
         return  $resultPage = $this->resultPageFactory->create();
     }
 }
